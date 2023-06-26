@@ -86,7 +86,10 @@ body{
         font-family: Arial, Helvetica, sans-serif;
         position: relative;
         text-align: center;
-        margin-left: 10%; /* Use uma porcentagem para alinhar horizontalmente */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 10%);
         line-height: 40px;
         color: white;
         background-color: #083853;
@@ -124,7 +127,7 @@ svg{
 .header .right-box img{
     height: 1080px;
     width: 600px;
-    margin-top: -650px;
+    margin-top: -450px;
     margin-left: 1150px;
     z-index: 3;
     position: absolute;
